@@ -1,6 +1,6 @@
 [submodule "tabula-back-end"]
 	path = tabula-back-end
-	url = https://github.com/G-Ferretti/tabula-back-end
+	url = https://github.com/G-Ferretti/tabula-back-end.git
 [submodule "tabula-front-end"]
 	path = tabula-front-end
-	url = https://github.com/G-Ferretti/tabula-front-end
+	url = https://github.com/G-Ferretti/tabula-front-end.git

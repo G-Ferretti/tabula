@@ -1,0 +1,71 @@
+# ==========================
+# Root Wrapper Gitignore
+# ==========================
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Node-related (for any local scripts)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dist and build outputs (Angular, etc.)
+dist/
+build/
+.tmp/
+.cache/
+
+# ==========================
+# Angular Front-End (submodule)
+# ==========================
+tabula-front-end/node_modules/
+tabula-front-end/dist/
+tabula-front-end/.angular/cache/
+tabula-front-end/.env
+tabula-front-end/.env.local
+
+# ==========================
+# Backend (submodule)
+# ==========================
+tabula-back-end/node_modules/
+tabula-back-end/dist/
+tabula-back-end/build/
+tabula-back-end/.env
+tabula-back-end/.env.local
+tabula-back-end/.venv/
+tabula-back-end/venv/
+tabula-back-end/__pycache__/
+
+# ==========================
+# Docker / Compose
+# ==========================
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+.env
+.env.local
+
+# ==========================
+# Logs & temp files
+# ==========================
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ==========================
+# IDE / Editor files
+# ==========================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
