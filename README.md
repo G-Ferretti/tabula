@@ -21,7 +21,7 @@ tabula/
 Make sure you clone recursively so both submodules are included:
 
 ```bash
-    git clone --recurse-submodules https://github.com/your-org/tabula.git
+  git clone --recurse-submodules https://github.com/G-Ferretti/tabula.git
   cd tabula
 ```
 
